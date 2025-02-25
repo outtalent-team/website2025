@@ -223,7 +223,13 @@ sup {
 }
 
 .content ul li, .content ol li {
-    padding-left: 4px;
+    padding-left: 2px;
+}
+
+/* Add this new rule for ordered lists */
+.content ol {
+    padding-left: 10px; /* This compensates for the number width */
+    margin-left: 12px;
 }
 
 /* Keep the navigation menu styling separate */
